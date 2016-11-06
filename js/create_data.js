@@ -10,7 +10,7 @@ function newJSONPlace(name, description, date, lon, lat){
     "coordinates": [lat, lon],
     "properties": {
       "name": name,
-      "description": description,
+      "tag": description,
       "date": date
     }
   }
@@ -19,7 +19,7 @@ function newJSONPlace(name, description, date, lon, lat){
 
 data = [];
 
-data.push(newJSONPlace('Montreal', '', '', 45.513387, -73.568550));
+data.push(newJSONPlace('Montreal', 'Exchange Student', '', 45.513387, -73.568550));
 data.push(newJSONPlace('Québec', '', '', 46.824575, -71.21023));
 data.push(newJSONPlace('Chicoutimi', '', '', 48.352517, -71.135329));
 data.push(newJSONPlace('Toronto', '', '', 43.647387, -79.360247));

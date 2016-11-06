@@ -47,6 +47,15 @@ $('.tag').click(function(e){
   }
 });
 
+const SCROLL_REVEAL_DURATION = 800;
+
+window.sr = ScrollReveal({reset: true});
+sr.reveal('#experiences', { duration: SCROLL_REVEAL_DURATION });
+sr.reveal('#projects', { duration: SCROLL_REVEAL_DURATION });
+sr.reveal('#education', { duration: SCROLL_REVEAL_DURATION });
+sr.reveal('#voyages', { duration: SCROLL_REVEAL_DURATION });
+sr.reveal('#interets', { duration: SCROLL_REVEAL_DURATION });
+
 /*$('.background-item-header-image').each(function(i){
   var img = $(this).find('>:first-child');
   img.css('height', $(this).height());
