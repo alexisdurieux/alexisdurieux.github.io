@@ -1,0 +1,535 @@
+[
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            45.513387,
+            -73.56855
+        ],
+        "properties": {
+            "name": "Montreal",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -71.21023,
+            46.824575
+        ],
+        "properties": {
+            "name": "Québec",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -71.135329,
+            48.352517
+        ],
+        "properties": {
+            "name": "Chicoutimi",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -79.360247,
+            43.647387
+        ],
+        "properties": {
+            "name": "Toronto",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -79.079119,
+            43.08946
+        ],
+        "properties": {
+            "name": "Niagara",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -87.609933,
+            41.876182
+        ],
+        "properties": {
+            "name": "Chicago",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -74.375922,
+            40.752315
+        ],
+        "properties": {
+            "name": "New York City",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -75.115188,
+            39.94917
+        ],
+        "properties": {
+            "name": "Philadelphia",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -77.025598,
+            38.905119
+        ],
+        "properties": {
+            "name": "Washington",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -74.900381,
+            38.93504
+        ],
+        "properties": {
+            "name": "Cape May",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -80.191006,
+            25.762073
+        ],
+        "properties": {
+            "name": "Miami",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -81.367663,
+            28.53655
+        ],
+        "properties": {
+            "name": "Orlando",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -122.410876,
+            37.77206
+        ],
+        "properties": {
+            "name": "San Francisco",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -118.218785,
+            34.051795
+        ],
+        "properties": {
+            "name": "Los Angeles",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -115.125075,
+            36.169939
+        ],
+        "properties": {
+            "name": "Las Vegas",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -116.845228,
+            36.835854
+        ],
+        "properties": {
+            "name": "Death Valley",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -119.592676,
+            37.74553
+        ],
+        "properties": {
+            "name": "Yosemite",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            153.027642,
+            -27.469817
+        ],
+        "properties": {
+            "name": "Brisbane",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            null,
+            42.923348
+        ],
+        "properties": {
+            "name": "Neum",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            15.234485,
+            44.122056
+        ],
+        "properties": {
+            "name": "Zadar",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            18.089242,
+            42.649681
+        ],
+        "properties": {
+            "name": "Dubrovnik",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            18.770584,
+            42.42465
+        ],
+        "properties": {
+            "name": "Kotor",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            18.422781,
+            43.856755
+        ],
+        "properties": {
+            "name": "Sarajevo",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            15.621094,
+            44.882009
+        ],
+        "properties": {
+            "name": "Plivitce",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            16.441521,
+            43.506301
+        ],
+        "properties": {
+            "name": "Split",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            18.440633,
+            43.855765
+        ],
+        "properties": {
+            "name": "Sarajevo",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            19.086223,
+            47.496559
+        ],
+        "properties": {
+            "name": "Budapest",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            14.440778,
+            50.08477
+        ],
+        "properties": {
+            "name": "Praha",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            10.070527,
+            53.554006
+        ],
+        "properties": {
+            "name": "Hamburg",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            13.376586,
+            52.526282
+        ],
+        "properties": {
+            "name": "Berlin",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            11.570641,
+            48.134413
+        ],
+        "properties": {
+            "name": "Munich",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            4.923302,
+            52.369252
+        ],
+        "properties": {
+            "name": "Amsterdam",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -0.128828,
+            51.50754
+        ],
+        "properties": {
+            "name": "London",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            -1.262015,
+            51.752034
+        ],
+        "properties": {
+            "name": "Oxford",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            10.483317,
+            43.835757
+        ],
+        "properties": {
+            "name": "Lucca",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            11.221753,
+            43.826834
+        ],
+        "properties": {
+            "name": "Firenze",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            10.398802,
+            43.724036
+        ],
+        "properties": {
+            "name": "Pisa",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            11.33211,
+            43.319234
+        ],
+        "properties": {
+            "name": "Sienna",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            15.088494,
+            37.504248
+        ],
+        "properties": {
+            "name": "Catania",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            15.287257,
+            37.851576
+        ],
+        "properties": {
+            "name": "Taormina",
+            "description": "",
+            "date": ""
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
+            11.043809,
+            43.469222
+        ],
+        "properties": {
+            "name": "San Gimignano",
+            "description": "",
+            "date": ""
+        }
+    }
+]
