@@ -16,7 +16,7 @@ function initMap() {
   $.getJSON("../data/voyages_data.json", function(places) {
     console.log(places);
     for (var i = 0; i < places.length; i++) {
-      var coords = places[i].geometry.coordinates;
+      var coords = places[i].coordinates;
       var latLng = new google.maps.LatLng(coords[1],coords[0]);
       var marker = new google.maps.Marker({
          position: latLng,
