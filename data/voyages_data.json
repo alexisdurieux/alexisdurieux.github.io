@@ -3,8 +3,8 @@
         "type": "Feature",
         "geometry": "Point",
         "coordinates": [
-            45.513387,
-            -73.56855
+            -73.56855,
+            45.513387
         ],
         "properties": {
             "name": "Montreal",
