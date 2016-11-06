@@ -13,16 +13,17 @@ function initMap() {
       mapOptions);
 
   var places;
-  $.getJSON("../data/voyages_data.json", function(json) {
-    places = json;
+  $.getJSON("../data/voyages_data.json", function(places) {
+    console.log(places);
+    for (var i = 0; i < places.length; i++) {
+      var coords = places[i].geometry.coordinates;
+      var latLng = new google.maps.LatLng(coords[1],coords[0]);
+      var marker = new google.maps.Marker({
+         position: latLng,
+         map: map
+      });
+    }
   });
 
-  for (var i = 0; i < places.length; i++) {
-    var coords = places[i].geometry.coordinates;
-    var latLng = new google.maps.LatLng(coords[1],coords[0]);
-    var marker = new google.maps.Marker({
-       position: latLng,
-       map: map
-    });
-  }
+
 }
