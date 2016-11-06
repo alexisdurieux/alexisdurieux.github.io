@@ -39,9 +39,9 @@ $('.tag').click(function(e){
     var filter = $(this).attr('name');
     $('.tags').each(function(i){
       if ($(this).children('[filter-attribute=' + filter + ']').length){
-        $(this).parent().show();
+        $(this).parent().show("slow");
       } else {
-        $(this).parent().hide();
+        $(this).parent().hide("slow");
       }
     });
   }
