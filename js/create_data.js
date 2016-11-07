@@ -20,7 +20,7 @@ function newJSONPlace(name, description, date, lon, lat){
 data = [];
 
 data.push(newJSONPlace('Montreal', 'Exchange Student', 'Sep 2015. May 2016', 45.513387, -73.568550));
-data.push(newJSONPlace('Québec', '', '', 46.824575, -71.21023));
+data.push(newJSONPlace('Québec', 'Tourism', '', 46.824575, -71.21023));
 data.push(newJSONPlace('Chicoutimi', '', '', 48.352517, -71.135329));
 data.push(newJSONPlace('Toronto', '', '', 43.647387, -79.360247));
 data.push(newJSONPlace('Niagara', '', '',43.089460, -79.079119 ));
@@ -37,7 +37,7 @@ data.push(newJSONPlace('Las Vegas', '', '', 36.169939, -115.125075));
 data.push(newJSONPlace('Death Valley', '', '', 36.835854, -116.845228));
 data.push(newJSONPlace('Yosemite', '', '', 37.745530, -119.592676));
 data.push(newJSONPlace('Brisbane', '', '', -27.469817, 153.027642));
-data.push(newJSONPlace('Neum', '', '', 42.923348));
+data.push(newJSONPlace('Neum', '', '', 42.922990, 17.618788));
 data.push(newJSONPlace('Zadar', '', '', 44.122056, 15.234485));
 data.push(newJSONPlace('Dubrovnik', '', '', 42.649681, 18.089242));
 data.push(newJSONPlace('Kotor', '', '', 42.424650, 18.770584));
@@ -64,5 +64,7 @@ data.push(newJSONPlace('San Gimignano', '', '', 43.469222, 11.043809));
 
 
 jsonfile.writeFile(file, data, function (err) {
-  console.error(err)
+  if (!err){
+    console.log('SUCCESS !');
+  }
 });

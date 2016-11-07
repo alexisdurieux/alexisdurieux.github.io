@@ -22,7 +22,10 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-transparent navbar-static-top">
+        <div class="navbar-inner">
+
+
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -44,26 +47,30 @@
             </ul>
           </div>
         </div>
+        </div>
       </nav>
     </header>
-    <div class="container">
-      <div data-scroll-index="0" id="about">
-        <div class="col-md-4 col-sm-12 profile-picture" style="background-image: url('img/profile.jpg')">
+    <div class="main-container">
+      <div data-scroll-index="0" id="about" class="container-fluid">
+        <div class="background-image"></div>
+        <div class="informations">
+          <div class="col-md-4 col-sm-12 profile-picture" style="background-image: url('img/profile.jpg')">
 
-        </div>
-        <div class="col-md-8 col-sm-12 global-informations">
-          <div class="presentation">
-            <h3>Hi ! I'm Alexis, a computer science engineering student</h3>
-            <p>
-              I'm passionate about Datascience (especially Machine Learning), startups, entrepeuneurship. I'm also fond of music, tv-shows, video-games and sports.
-            </p>
           </div>
-          <div class="position">
-            <h2>LOOKING FOR A DATASCIENCE DRIVEN INTERNSHIP FOR SUMMER 2017</h2>
+          <div class="col-md-8 col-sm-12 global-informations">
+            <div class="presentation">
+              <h3>Hi ! I'm Alexis, a computer science engineering student</h3>
+              <p>
+                I'm passionate about Datascience (especially Machine Learning), startups, entrepeuneurship. I'm also fond of music, tv-shows, video-games and sports.
+              </p>
+            </div>
+            <div class="position">
+              <h2>LOOKING FOR A DATASCIENCE DRIVEN INTERNSHIP FOR SUMMER 2017</h2>
+            </div>
           </div>
         </div>
       </div>
-      <div id="background">
+      <div id="background" class="container">
         <div class="col-md-2 col-sm-12" id="tag-list">
           <div class="tag web" name="web">Web</div>
           <div class="tag ios" name="ios">iOS</div>
@@ -287,13 +294,15 @@
           </div>
         </div>
       </div>
-      <div data-scroll-index="4" id="voyages">
-        <h2>Voyages</h2>
+      <div data-scroll-index="4" id="voyages" class="container-fluid">
+        <h2>Interactive map</h2>
+        <div class="voyages-description">
+          I recently retrieved data of all notable places I have been travelling and studying to. And I decided to gather it on the map below. I still am working on it to add some pictures I have on each place.
+        </div>
         <div id="map">
-
         </div>
       </div>
-      <div data-scroll-index="5" id="interets">
+      <div data-scroll-index="5" id="interets" class="container">
         <h2>Intêrets</h2>
         <div class="medias">
           <div class="spotify-playlist">

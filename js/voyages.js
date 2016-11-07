@@ -9,6 +9,7 @@ function initMap() {
 
 
   var infowindow = new google.maps.InfoWindow();
+  console.log(infowindow);
 
   $.getJSON("../data/voyages_data.json", function(data) {
 
@@ -24,13 +25,12 @@ function initMap() {
       });
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          var contentString = '<div id="content" style="padding: 0px;">'+
-          '<div id="siteNotice">'+
-          '</div>'+
-          '<h1 id="firstHeading" class="firstHeading">'+ data[i].properties.name +'</h1>'+
+          var contentString = '<div id="iw-container">'+
+          '<div id="iw-title" style="font-size: 1.75em; margin-left:10px;">'+ data[i].properties.name +'</div>'+
           '<div class="infowindow-info">' +
           '<div class="map-tag">' + data[i].properties.tag + '</div>' +
-          '<div class="background-item-date">' + data[i].properties.date + '</div>'
+          '<div class="background-item-date">' + data[i].properties.date + '</div>' +
+          '<div class="img-container"><img src="../img/torontoview.jpg"/></div>' +
           '</div>' +
           '</div>'+
           '</div>';
