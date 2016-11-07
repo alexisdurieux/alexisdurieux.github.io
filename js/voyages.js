@@ -28,8 +28,10 @@ function initMap() {
           '<div id="siteNotice">'+
           '</div>'+
           '<h1 id="firstHeading" class="firstHeading">'+ data[i].properties.name +'</h1>'+
+          '<div class="infowindow-info">' +
           '<div class="map-tag">' + data[i].properties.tag + '</div>' +
           '<div class="background-item-date">' + data[i].properties.date + '</div>'
+          '</div>' +
           '</div>'+
           '</div>';
           infowindow.setContent(contentString);

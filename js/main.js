@@ -31,7 +31,7 @@ $('.tag').click(function(e){
     $(this).css('opacity', 0.5);
     $(this).removeClass('selected-tag');
     $('.background-item').each(function(i){
-      $(this).show();
+      $(this).show("slow");
     });
   } else {
     $('.tag.selected-tag').removeClass('selected-tag').css('opacity', '0.5');
@@ -56,8 +56,8 @@ sr.reveal('#education', { duration: SCROLL_REVEAL_DURATION });
 sr.reveal('#voyages', { duration: SCROLL_REVEAL_DURATION });
 sr.reveal('#interets', { duration: SCROLL_REVEAL_DURATION });
 
-/*$('.background-item-header-image').each(function(i){
-  var img = $(this).find('>:first-child');
-  img.css('height', $(this).height());
-  img.css('width', 'auto');
-});*/
+$('.background-item').each(function(){
+  $(this).click(function(e){
+    window.open($(this).attr('link-url'));
+  });
+})

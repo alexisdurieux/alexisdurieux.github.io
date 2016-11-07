@@ -84,6 +84,11 @@ h2 {
   margin-bottom: 20px;
 }
 
+.background-item:hover{
+  cursor: pointer;
+  transform: scale(1.005);
+}
+
 .background-item h3 {
   text-transform: uppercase;
   margin-top: 5px;
@@ -170,14 +175,22 @@ h2 {
 }
 
 .map-tag {
+  margin-right: 5px;
   background-color: #8F95D3;
-    display: inline-block;
-    border-radius: 3px;
-    padding: 3px;
-    text-transform: uppercase;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 3px;
+  text-transform: uppercase;
 }
 
 h1#firstHeading {
     text-transform: uppercase;
     font-size: 2em;
+}
+
+.gm-style-iw #content .infowindow-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
