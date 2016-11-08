@@ -2,17 +2,15 @@ function initScrollReveal(){
   const SCROLL_REVEAL_DURATION = 800;
 
   window.sr = ScrollReveal({reset: true});
-  sr.reveal('#experiences', { duration: SCROLL_REVEAL_DURATION });
-  sr.reveal('#projects', { duration: SCROLL_REVEAL_DURATION });
-  sr.reveal('#education', { duration: SCROLL_REVEAL_DURATION });
+  sr.reveal('#background', { duration: SCROLL_REVEAL_DURATION });
   sr.reveal('#voyages', { duration: SCROLL_REVEAL_DURATION });
   sr.reveal('#interets', { duration: SCROLL_REVEAL_DURATION });
 
-  $('.background-item').each(function(){
+  $('.background-item, .navbar-right > li > i').each(function(){
     $(this).click(function(e){
       window.open($(this).attr('link-url'));
     });
-  })
+  });
 }
 
 function initScrollIt(){

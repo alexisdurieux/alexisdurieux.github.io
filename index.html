@@ -24,8 +24,6 @@
     <header>
       <nav class="navbar navbar-transparent navbar-static-top">
         <div class="navbar-inner">
-
-
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -36,14 +34,20 @@
             </button>
             <a class="navbar-brand" href="#" data-scroll-goto="0">Alexis DURIEUX</a>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
               <li><a class="active" href="#" data-scroll-nav="0">À Propos</a></li>
               <li><a href="#" data-scroll-nav="1">Expériences</a></li>
-              <li><a href="#" data-scroll-nav="2">Projets</a></li>
+              <li><a href="#" data-scroll-nav="2">Projects</a></li>
               <li><a href="#" data-scroll-nav="3">Education</a></li>
-              <li><a href="#" data-scroll-nav="4">Voyages</a></li>
+              <li><a href="#" data-scroll-nav="4">Abroad</a></li>
               <li><a href="#" data-scroll-nav="5">Intêrets</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="mailto:alexis.durieux94@gmail.com?Subject=Contact" class="contact">Contact Me</a></li>
+              <li><i class="fa fa-2x fa-github" aria-hidden="true" link-url="https://github.com/alexisdurieux"></i></li>
+              <li><i class="fa fa-2x fa-linkedin" aria-hidden="true" link-url="https://www.linkedin.com/in/alexis-durieux"></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -73,9 +77,11 @@
       <div id="background" class="container">
         <div class="col-md-2 col-sm-12" id="tag-list">
           <div class="tag web" name="web">Web</div>
-          <div class="tag ios" name="ios">iOS</div>
-          <div class="tag prog" name="prog">Programmation</div>
+          <div class="tag games" name="games">Games</div>
+          <div class="tag mobile" name="mobile">Mobile</div>
           <div class="tag data" name="data">Data-Science and Statistics</div>
+          <div class="tag db" name="db">Databases</div>
+          <div class="tag algods" name="algods">Algorithms &amp; Data Structures</div>
         </div>
         <div class="col-md-10 col-md-12" id="background-sections">
           <div data-scroll-index="1" id="experiences">
@@ -87,16 +93,16 @@
               </div>
               <div class="background-item-info">
                 <ul>
-                  <li>Development of a <a href="https://www.nelinelo.com">website</a>:</li>
+                  <li>Development of a website:</li>
                     <ul>
-                      <li>Front-End development using <em>MarionnetteJS</em> framework. Also use of <em>Bootstrap</em> framework</li>
-                      <li>Back-End development using Express for NodeJS.
+                      <li>Front-End development using <b>MarionnetteJS</b> framework. Also use of <b>Bootstrap</b> framework</li>
+                      <li>Back-End development using Express for <b>NodeJS</b>.
                       <li>Practical use of numerous APIs such as: Facebook, Twitter, Pinterest GoogleMaps, Mixpanel, HighCharts.</li>
                     </ul>
-                  <li>iOS development using <em>Objective C</em>:
+                  <li>iOS development using <b>Objective C</b>:
                     <ul>
                       <li>Improvement and features adding on an existing iOS Application. <a href="http://nelinelo.appstor.io/">Try it out</a> on the AppStore</li>
-                      <li>Use of <em>CocoaPods</em></li>
+                      <li>Use of <b>CocoaPods</b></li>
                     </ul>
                 </ul>
               </div>
@@ -126,8 +132,11 @@
                 <div class="background-item-tag web" filter-attribute="web">
                   Back-End
                 </div>
-                <div class="background-item-tag ios" filter-attribute="ios">
-                  iOS
+                <div class="background-item-tag db" filter-attribute="db">
+                  SQL
+                </div>
+                <div class="background-item-tag mobile" filter-attribute="mobile">
+                  iOS (Objective C)
                 </div>
               </div>
             </div>
@@ -141,12 +150,12 @@
               </div>
               <div class="background-item-info">
                 <ul>
-                  <li>Participation to <a href="https://www.coursera.org/learn/machine-learning/home/welcome">Stanford University Machine Learning MOOC</a>. First steps, and applications of structural concepts of Machine Learning:</li>
+                  <li>Participation to Stanford University Machine Learning MOOC. First steps, and applications of structural concepts of Machine Learning:</li>
                     <ul>
-                      <li>Unsupervised learning: SVM, Kernels, Neural Networks</li>
-                      <li>Supervised learning: Clustering, Recommendation systems, Deep Learning, Dimensionnality reduction.</li>
+                      <li><em>Unsupervised learning</em>: <b>SVM, Kernels, Neural Networks</b></li>
+                      <li><em>Supervised learning</em>: <b>Clustering, Recommendation systems, Deep Learning, Dimensionnality reduction.</b></li>
                     </ul>
-                  <li>Use of Matlab programming language to perform weekly activitiees</li>
+                  <li>Use of <b>Matlab</b> programming language to perform weekly activitiees</li>
                 </ul>
               </div>
               <div class="background-item-footer">
@@ -169,8 +178,8 @@
               <div class="background-item-info">
                 <ul>
                   <li>Development of popular cellular automaton <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a></li>
-                  <li>First steps in C language</li>
-                  <li>Use of <em>SDL2</em> to handle graphical display. (see on right)</li>
+                  <li>First steps in <b>>C language</b></li>
+                  <li>Use of <b>SDL2</b> to handle graphical display. (see on right)</li>
                 </ul>
                 <img src="img/jeudelavie.gif" alt="" />
               </div>
@@ -183,10 +192,43 @@
                 </div>
               </div>
               <div class="tags">
-                <div class="background-item-tag prog" filter-attribute="prog">
+                <div class="background-item-tag algods" filter-attribute="algods">
                   C
                 </div>
-                <div class="background-item-tag prog" filter-attribute="prog">
+                <div class="background-item-tag games" filter-attribute="games">
+                  SDL2
+                </div>
+              </div>
+            </div>
+            <div class="background-item" link-url="https://github.com/alexisdurieux/Pacoman">
+              <div class="background-item-header">
+                <h3>Pacoman</h3>
+              </div>
+              <div class="background-item-info">
+                <ul>
+                  <li><b>Group Project</b> consisting of the development of Pacman like game.</li>
+                  <li>Use of <b>Pascal Programming Language</b></li>
+                  <li>Group Project</li>
+                  <li>Development of an <b>Djikstra's AI based</b></li>
+                  <li>Use of <b>SDL2</b> to handle graphical display. (see on right)</li>
+                </ul>
+                <img src="img/pacoman.png" alt="" />
+              </div>
+              <div class="background-item-footer">
+                <div class="background-item-technos">
+                </div>
+                <div class="background-item-date">
+                  Fall 2014
+                </div>
+              </div>
+              <div class="tags">
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  Pascal
+                </div>
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  AI Development
+                </div>
+                <div class="background-item-tag games" filter-attribute="games">
                   SDL2
                 </div>
               </div>
@@ -199,8 +241,8 @@
               <div class="background-item-info">
                 <ul>
                   <li>Database school project to develop of a music library.</a></li>
-                  <li>Design and conception of a database. Use of PostgreSQL.</li>
-                  <li>Development of a graphic application in Java.</li>
+                  <li><b>Design and conception</b> of a database. Use of <b>PostgreSQL</b>.</li>
+                  <li>Development of a graphic application in <b>Java</b>.</li>
                 </ul>
               </div>
               <div class="background-item-footer">
@@ -213,11 +255,11 @@
                 </div>
               </div>
               <div class="tags">
-                <div class="background-item-tag prog" filter-attribute="prog">
+                <div class="background-item-tag db" filter-attribute="db">
                   PostgreSQL
                 </div>
-                <div class="background-item-tag prog" filter-attribute="prog">
-                  Java
+                <div class="background-item-tag db" filter-attribute="db">
+                  JDBC
                 </div>
               </div>
             </div>
@@ -227,13 +269,13 @@
             <h2>Education</h2>
             <div class="background-item" link-url="http://www.insa-rouen.fr">
               <div class="background-item-header">
-                <h3>C.S Engineer Student (Ms.) - INSA Rouen</h3>
+                <h3>INSA Rouen C.S Student (Ms.)</h3>
                 <div class="background-item-header-image"><img src="img/insarouen.png" alt="" /></div>
               </div>
               <div class="background-item-info">
                 <ul>
-                  <li>Data Mining speciality</li>
-                  <li><em>Followed classes: Data Mining, Computer Networks, Information Theory, Graph Theory and Operationnal Research</em></li>
+                  <li><b>Data Mining speciality</b></li>
+                  <li><em>Followed classes</em>: <b>Data Mining, Computer Networks, Information Theory, Graph Theory and Operationnal Research</b></li>
                 </ul>
               </div>
               <div class="background-item-footer">
@@ -251,7 +293,12 @@
                 <div class="background-item-tag data" filter-attribute="data">
                   Datamining
                 </div>
-
+                <div class="background-item-tag data" filter-attribute="data">
+                  Matlab
+                </div>
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  Graph Theory
+                </div>
               </div>
             </div>
             <div class="background-item" link-url="http://www.polymtl.ca">
@@ -262,7 +309,7 @@
               <div class="background-item-info">
                 <ul>
                   <li>Exchange Student in Polytechnique Montréal (Québec - Canada)</li>
-                  <li>Followed classes: <em>Software Design, Object Oriented Programming, Algorithms and Data Structures, Operating Systems, Signals and Images Processing, Probabilities.</em></li>
+                  <li><em>Followed classes</em>: <b>Software Design, Object Oriented Programming, Algorithms and Data Structures, Operating Systems, Signals and Images Processing, Probabilities.</b></li>
                 </ul>
               </div>
               <div class="background-item-footer">
@@ -282,20 +329,63 @@
                 <div class="background-item-tag data" filter-attribute="data">
                   Probabilities
                 </div>
-                <div class="background-item-tag prog" filter-attribute="prog">
-                  Algorithms
+                <div class="background-item-tag data" filter-attribute="data">Statistics</div>
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  Sequential Data Structures
                 </div>
-                <div class="background-item-tag prog" filter-attribute="prog">
-                  Data Structures
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  Sort Algorithms
+                </div>
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  Binary Trees
+                </div>
+                <div class="background-item-tag algods" filter-attribute="algods">
+                  Dynamic Programming
                 </div>
               </div>
 
             </div>
+            <div class="background-item" link-url="http://www.utc.fr">
+              <div class="background-item-header">
+                <h3>UTC</h3>
+                <div class="background-item-header-image"><img src="img/UTC.png" alt="" /></div>
+              </div>
+              <div class="background-item-info">
+                <ul>
+                  <li>First Year Student in UTC (Université Technologique de Compiègne)</li>
+                </ul>
+              </div>
+              <div class="background-item-footer">
+                <div class="background-item-technos">
+                </div>
+                <div class="background-item-date">
+                  Sep 2012. Juin 2013
+                </div>
+              </div>
+            </div>
+            <div class="background-item" link-url="#">
+              <div class="background-item-header">
+                <h3>Baccalauréat (French Secondary School Diploma)</h3>
+              </div>
+              <div class="background-item-info">
+                <ul>
+                  <li>Science specialisation. "Very Good" honours</li>
+                  <li>Lycée Jean-Baptiste de la Salle - Rouen (76)</li>
+                </ul>
+              </div>
+              <div class="background-item-footer">
+                <div class="background-item-technos">
+                </div>
+                <div class="background-item-date">
+                  Jun 2012.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div data-scroll-index="4" id="voyages" class="container-fluid">
-        <h2>Interactive map</h2>
+      <div data-scroll-index="4" id="voyages" class="container">
+        <h2>Abroad</h2>
         <div class="voyages-description">
           I recently retrieved data of all notable places I have been travelling and studying to. And I decided to gather it on the map below. I still am working on it to add some pictures I have on each place.
         </div>
@@ -303,13 +393,20 @@
         </div>
       </div>
       <div data-scroll-index="5" id="interets" class="container">
-        <h2>Intêrets</h2>
-        <div class="medias">
-          <div class="spotify-playlist">
-            <iframe src="https://embed.spotify.com/?uri=spotify:user:113426621:playlist:4P348ad3N2mcqVntBF3CkL" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <h2>Interests</h2>
+        <div class="interests-container">
+          <div class="global-interests">
+            <ul>
+              <li> I'm fond of Music. You can see one of my very favorite playlist on the right ! Hope you'll enjoy it !</li>
+            </ul>
           </div>
-          <div class="lichess-training">
-            <iframe width="300" height="380" frameborder="0" allowtransparency="true" src="https://fr.lichess.org/training/frame?bg=auto&amp;theme=auto&amp;embed="></iframe>
+          <div class="medias">
+            <div class="spotify-playlist">
+              <iframe src="https://embed.spotify.com/?uri=spotify:user:113426621:playlist:4P348ad3N2mcqVntBF3CkL" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+            <div class="lichess-training" style="display:none;">
+              <iframe width="300" height="380" frameborder="0" allowtransparency="true" src="https://fr.lichess.org/training/frame?bg=auto&amp;theme=auto&amp;embed="></iframe>
+            </div>
           </div>
         </div>
       </div>

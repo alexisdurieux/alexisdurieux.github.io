@@ -1,6 +1,7 @@
 body {
-  padding-top: 0px;
-  background: #eee
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background: #eee
 }
 
 h2 {
@@ -9,140 +10,149 @@ h2 {
 
 /************* ABOUT *************/
 #about {
-  position: relative;
-  padding: 0px;
-  margin-top: -70px;
+    position: relative;
+    padding: 0px;
+    margin-top: -70px;
 }
 
 #about .background-image {
-  width: 100%;
-  background-image: url("../img/torontoview.jpg");
-  background-size: cover;
-  min-height: 400px;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  filter:blur(3px);
+    width: 100%;
+    background-image: url("../img/torontoview.jpg");
+    background-size: cover;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: blur(3px) brightness(70%);
 
 }
 
 #about .informations {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  top: 13%;
-  color: #00557F;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding-top: 30px;
-  text-shadow: 1px 1px #f5efff;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 13%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 30px;
 }
-
 
 #about .profile-picture {
-  width: 175px;
-  height: 175px;
-  border-radius: 50%;
-  background-size: cover;
-  margin-right: 50px;
-  border: 3px solid #00557F;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 50px;
+    border: 1px solid white;
 }
-
-
 
 /************* BACKGROUND *************/
 #background {
-  position: relative;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #background-sections {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 #tag-list {
-  align-self: flex-start;
-  margin-top: 50px;
+    align-self: flex-start;
+    margin-top: 50px;
 }
 
 #tag-list .tag {
-  display: inline-block;
-  padding: 6px;
-  border-radius: 3px;
-  margin: 5px 0px;
-  font-weight: 600;
-  color: #eee;
-  opacity: 0.7;
-  z-index: -1;
-  cursor: pointer;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 3px;
+    margin: 5px 0px;
+    font-weight: 600;
+    color: #eee;
+    opacity: 0.7;
+    z-index: -1;
+    cursor: pointer;
 }
 
 #tag-list .tag.selected-tag {
-  opacity: 1;
-}
-.web {
-  background-color: #E74C3C;
+    opacity: 1;
 }
 
-.prog {
-  background-color: #48C9B0;
+.web {
+    background-color: #E74C3C;
+}
+
+.games {
+    background-color: #48C9B0;
+}
+
+.mobile {
+    background-color: #8E44AD;
 }
 
 .data {
-  background-color: #8E44AD;
+    background-color: #F39C12;
 }
 
-.ios {
-  background-color: #F39C12;
+.db {
+    background-color: #40E736;
+}
+
+.algods {
+    background-color: #486CF3;
 }
 
 .background-item {
-  position: relative;
-  background-color: white;
-  padding: 10px;
-  box-shadow: 7px 7px 20px #888888;
-  margin-bottom: 20px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 7px 7px 20px #888888;
+    margin-bottom: 20px;
 }
 
-.background-item:hover{
-  cursor: pointer;
-  transform: scale(1.005);
+.background-item:hover {
+    cursor: pointer;
+    transform: scale(1.005);
 }
 
 .background-item h3 {
-  text-transform: uppercase;
-  margin-top: 5px;
-  font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 300;
 }
 
 .background-item-header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
 }
 
 .background-item-header-image {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .background-item-header-image img {
-  width: auto;
-  height: 40px;
+    width: auto;
+    height: 30px;
 }
 
 .background-item-info {
-  display: flex;
+    display: flex;
+}
+
+.background-item a {
+    text-transform: uppercase;
 }
 
 .background-item-info img {
-  width: 100px;
-  height: 100px;
-  margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
 }
 
 .background-item-footer {
@@ -158,55 +168,57 @@ h2 {
 .background-item-date {
     text-transform: uppercase;
     font-weight: 600;
-    color: #2E4053;
+    color: #2E405366;
 }
 
 .tags {
-  position: absolute;
-  top: 6px;
-  right: 5px;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  display: inline-block;
-  font-weight: 600;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    max-width: 450px;
+    text-align: right;
 }
 
 .background-item-tag {
-  padding: 2px 5px;
-  margin: 3px 0px;
-  border-radius: 3px;
-  display: inline-block;
+    padding: 2px 5px;
+    margin: 3px 0px;
+    border-radius: 3px;
+    display: inline-block;
 }
 
 .section-icon {
-  position: absolute;
-  font-size: 10em;
-  top: 0;
-  right: -200px;
+    position: absolute;
+    font-size: 10em;
+    top: 0;
+    right: -200px;
 }
 
 #projects {
-  position: relative;
+    position: relative;
 }
 
 #map {
-  height: 512px;
+    height: 512px;
 }
 
 .medias {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .map-tag {
-  margin-right: 5px;
-  background-color: #8F95D3;
-  display: inline-block;
-  border-radius: 3px;
-  padding: 3px;
-  text-transform: uppercase;
-  color: white;
+    margin-right: 5px;
+    background-color: #8F95D3;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 3px;
+    text-transform: uppercase;
+    color: white;
 }
 
 h1#firstHeading {
@@ -214,58 +226,106 @@ h1#firstHeading {
     font-size: 2em;
 }
 
-
 .gm-style-iw #iw-container .infowindow-info {
-  display: flex;
-  align-items: flex-start;;
-  justify-content: space-around;
-  flex-direction: column;
-  margin-left: 10px;
+    display: flex;
+    align-items: flex-start;;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
 .voyages-description {
-  padding: 5px;
-  margin-bottom: 10px;
-  font-size: 1.5em
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em
 }
 
 .navbar.transparent .navbar-inner {
-   border-width: 0px;
-   -webkit-box-shadow: 0px 0px;
-   box-shadow: 0px 0px;
-   background-color: rgba(0,0,0,0.0);
-   background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
 
 .navbar.transparent .navbar-inner {
-   border-width: 0px;
-   -webkit-box-shadow: 0px 0px;
-   box-shadow: 0px 0px;
-   background-color: rgba(0,0,0,0.0);
-   background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+
 }
 
-.nav>li>a:hover{
-  background-color: transparent;
-  color: white;
+.nav > li > a, .navbar-brand:focus, .navbar-brand {
+    color: #eee;
 }
 
+.nav > li > a:hover, .navbar-brand:focus, .navbar-brand:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.nav > li > a:hover, a:focus, .navbar-brand:focus, .navbar-brand:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.nav > li > a.active, .nav > li > a:focus {
+    background-color: transparent;
+}
+
+.navbar-right > li > i {
+    margin: 5px 10px;
+}
+
+.navbar-right > li > .btn {
+    padding: 7px;
+}
+
+
+.navbar-right > li > i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
 .iw-title {
-  font-weight: 100;
-  font-size: 1.75em;
+    font-weight: 100;
+    font-size: 1.75em;
 }
 
 #iw-container .img-container {
-  display: block;
-  width: 150px;
-  height: 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
 }
 
 #iw-container img {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-interests {
+    font-size: 2em;
+    font-weight: 200;
+    margin-right: 100px;
+}
+
+a.contact {
+    padding: 5px;
+    font-weight: 600;
 }
