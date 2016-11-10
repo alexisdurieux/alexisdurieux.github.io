@@ -9,7 +9,8 @@
         "properties": {
             "name": "Montreal",
             "tag": "Exchange Student",
-            "date": "Sep 2015. May 2016"
+            "date": "Sep 2015. May 2016",
+            "picture": ""
         }
     },
     {
@@ -22,7 +23,8 @@
         "properties": {
             "name": "Québec",
             "tag": "Tourism",
-            "date": ""
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -34,8 +36,9 @@
         ],
         "properties": {
             "name": "Chicoutimi",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -48,7 +51,8 @@
         "properties": {
             "name": "Toronto",
             "tag": "Tourism",
-            "date": ""
+            "date": "Nov 2015",
+            "picture": "../img/torontoview.jpg"
         }
     },
     {
@@ -60,8 +64,9 @@
         ],
         "properties": {
             "name": "Niagara",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -73,8 +78,9 @@
         ],
         "properties": {
             "name": "Chicago",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -86,8 +92,9 @@
         ],
         "properties": {
             "name": "New York City",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -99,8 +106,9 @@
         ],
         "properties": {
             "name": "Philadelphia",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -112,8 +120,9 @@
         ],
         "properties": {
             "name": "Washington",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -125,8 +134,9 @@
         ],
         "properties": {
             "name": "Cape May",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -138,8 +148,9 @@
         ],
         "properties": {
             "name": "Miami",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -151,8 +162,9 @@
         ],
         "properties": {
             "name": "Orlando",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -164,8 +176,9 @@
         ],
         "properties": {
             "name": "San Francisco",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -177,8 +190,9 @@
         ],
         "properties": {
             "name": "Los Angeles",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -190,8 +204,9 @@
         ],
         "properties": {
             "name": "Las Vegas",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -203,8 +218,9 @@
         ],
         "properties": {
             "name": "Death Valley",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -216,8 +232,9 @@
         ],
         "properties": {
             "name": "Yosemite",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -229,8 +246,9 @@
         ],
         "properties": {
             "name": "Brisbane",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -242,8 +260,9 @@
         ],
         "properties": {
             "name": "Neum",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -255,8 +274,9 @@
         ],
         "properties": {
             "name": "Zadar",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -268,8 +288,9 @@
         ],
         "properties": {
             "name": "Dubrovnik",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -281,8 +302,9 @@
         ],
         "properties": {
             "name": "Kotor",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -294,8 +316,9 @@
         ],
         "properties": {
             "name": "Sarajevo",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -307,8 +330,9 @@
         ],
         "properties": {
             "name": "Plivitce",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -320,8 +344,9 @@
         ],
         "properties": {
             "name": "Split",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -333,8 +358,9 @@
         ],
         "properties": {
             "name": "Sarajevo",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -346,8 +372,9 @@
         ],
         "properties": {
             "name": "Budapest",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -359,8 +386,9 @@
         ],
         "properties": {
             "name": "Praha",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -372,8 +400,9 @@
         ],
         "properties": {
             "name": "Hamburg",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -385,8 +414,9 @@
         ],
         "properties": {
             "name": "Berlin",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -398,8 +428,9 @@
         ],
         "properties": {
             "name": "Munich",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -411,8 +442,9 @@
         ],
         "properties": {
             "name": "Amsterdam",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -424,8 +456,9 @@
         ],
         "properties": {
             "name": "London",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -437,8 +470,9 @@
         ],
         "properties": {
             "name": "Oxford",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -450,8 +484,9 @@
         ],
         "properties": {
             "name": "Lucca",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -463,8 +498,9 @@
         ],
         "properties": {
             "name": "Firenze",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -476,8 +512,9 @@
         ],
         "properties": {
             "name": "Pisa",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -489,8 +526,9 @@
         ],
         "properties": {
             "name": "Sienna",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -502,8 +540,9 @@
         ],
         "properties": {
             "name": "Catania",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -515,8 +554,9 @@
         ],
         "properties": {
             "name": "Taormina",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     },
     {
@@ -528,8 +568,9 @@
         ],
         "properties": {
             "name": "San Gimignano",
-            "tag": "Tourism",
-            "date": ""
+            "tag": "",
+            "date": "",
+            "picture": ""
         }
     }
 ]

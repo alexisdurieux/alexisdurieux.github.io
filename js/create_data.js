@@ -3,7 +3,7 @@ var jsonfile = require('jsonfile');
 jsonfile.spaces = 4;
 var file = "../data/voyages_data.json";
 
-function newJSONPlace(name, description, date, lon, lat){
+function newJSONPlace(name, description, date, lon, lat, picture){
   var place = {
     "type": "Feature",
     "geometry": "Point",
@@ -11,7 +11,8 @@ function newJSONPlace(name, description, date, lon, lat){
     "properties": {
       "name": name,
       "tag": description,
-      "date": date
+      "date": date,
+      "picture": (picture ? "../img/" + picture : "")
     }
   }
   return place;
@@ -22,7 +23,7 @@ data = [];
 data.push(newJSONPlace('Montreal', 'Exchange Student', 'Sep 2015. May 2016', 45.513387, -73.568550));
 data.push(newJSONPlace('Québec', 'Tourism', '', 46.824575, -71.21023));
 data.push(newJSONPlace('Chicoutimi', '', '', 48.352517, -71.135329));
-data.push(newJSONPlace('Toronto', '', '', 43.647387, -79.360247));
+data.push(newJSONPlace('Toronto', 'Tourism', 'Nov 2015', 43.647387, -79.360247, "torontoview.jpg"));
 data.push(newJSONPlace('Niagara', '', '',43.089460, -79.079119 ));
 data.push(newJSONPlace('Chicago', '', '', 41.876182, -87.609933));
 data.push(newJSONPlace('New York City', '', '', 40.752315, -74.375922));

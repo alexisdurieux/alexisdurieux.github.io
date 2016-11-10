@@ -1,18 +1,3 @@
-function initScrollReveal(){
-  const SCROLL_REVEAL_DURATION = 800;
-
-  window.sr = ScrollReveal({reset: true});
-  sr.reveal('#background', { duration: SCROLL_REVEAL_DURATION });
-  sr.reveal('#voyages', { duration: SCROLL_REVEAL_DURATION });
-  sr.reveal('#interets', { duration: SCROLL_REVEAL_DURATION });
-
-  $('.background-item, .navbar-right > li > i').each(function(){
-    $(this).click(function(e){
-      window.open($(this).attr('link-url'));
-    });
-  });
-}
-
 function initScrollIt(){
   $.scrollIt({
     upKey: 38,             // key code to navigate to the next section
@@ -67,5 +52,4 @@ function initFiltering(){
 
 
 initScrollIt();
-initScrollReveal();
 initFiltering();

@@ -28,9 +28,9 @@ function initMap() {
           var contentString = '<div id="iw-container">'+
           '<div id="iw-title" style="font-size: 1.75em; margin-left:10px;">'+ data[i].properties.name +'</div>'+
           '<div class="infowindow-info">' +
-          '<div class="map-tag">' + data[i].properties.tag + '</div>' +
+          (data[i].properties.tag ? '<div class="map-tag">' + data[i].properties.tag + '</div>' : "") +
           '<div class="background-item-date">' + data[i].properties.date + '</div>' +
-          '<div class="img-container"><img src="../img/torontoview.jpg"/></div>' +
+          (data[i].properties.picture ? '<div class="img-container"><img src="' + data[i].properties.picture + '"/></div>' : "") +
           '</div>' +
           '</div>'+
           '</div>';
