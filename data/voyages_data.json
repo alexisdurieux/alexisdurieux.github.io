@@ -3,6 +3,20 @@
         "type": "Feature",
         "geometry": "Point",
         "coordinates": [
+            17.804167,
+            43.34353
+        ],
+        "properties": {
+            "name": "Mostar",
+            "tag": "Road Trip",
+            "date": "Aug 2016",
+            "picture": "../img/mostarbridge.jpg"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": "Point",
+        "coordinates": [
             -73.56855,
             45.513387
         ],
@@ -304,7 +318,7 @@
             "name": "Kotor",
             "tag": "",
             "date": "",
-            "picture": ""
+            "picture": "../img/kotor.jpg"
         }
     },
     {
@@ -332,7 +346,7 @@
             "name": "Plivitce",
             "tag": "",
             "date": "",
-            "picture": ""
+            "picture": "../img/plivitce.jpg"
         }
     },
     {

@@ -20,6 +20,7 @@ function newJSONPlace(name, description, date, lon, lat, picture){
 
 data = [];
 
+data.push(newJSONPlace('Mostar', 'Road Trip', 'Aug 2016', 43.343530, 17.804167, 'mostarbridge.jpg'));
 data.push(newJSONPlace('Montreal', 'Exchange Student', 'Sep 2015. May 2016', 45.513387, -73.568550));
 data.push(newJSONPlace('Québec', 'Tourism', '', 46.824575, -71.21023));
 data.push(newJSONPlace('Chicoutimi', '', '', 48.352517, -71.135329));
@@ -41,9 +42,9 @@ data.push(newJSONPlace('Brisbane', '', '', -27.469817, 153.027642));
 data.push(newJSONPlace('Neum', '', '', 42.922990, 17.618788));
 data.push(newJSONPlace('Zadar', '', '', 44.122056, 15.234485));
 data.push(newJSONPlace('Dubrovnik', '', '', 42.649681, 18.089242));
-data.push(newJSONPlace('Kotor', '', '', 42.424650, 18.770584));
+data.push(newJSONPlace('Kotor', '', '', 42.424650, 18.770584, 'kotor.jpg'));
 data.push(newJSONPlace('Sarajevo', '', '', 43.856755, 18.422781));
-data.push(newJSONPlace('Plivitce', '', '', 44.882009, 15.621094));
+data.push(newJSONPlace('Plivitce', '', '', 44.882009, 15.621094, 'plivitce.jpg'));
 data.push(newJSONPlace('Split', '', '', 43.506301, 16.441521));
 data.push(newJSONPlace('Sarajevo', '', '', 43.855765, 18.440633));
 data.push(newJSONPlace('Budapest', '', '', 47.496559, 19.086223));
