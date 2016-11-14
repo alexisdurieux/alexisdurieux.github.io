@@ -19,7 +19,7 @@ h2 {
     width: 100%;
     background-image: url("../img/torontoview.jpg");
     background-size: cover;
-    min-height: 400px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
@@ -33,7 +33,8 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    top: 13%;
+    top: 25%;
+    left: 18%;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
