@@ -49,7 +49,20 @@ function initFiltering(){
   });
 }
 
+function initLinkURL(){
+  $('.link-url').each(function(){
+    $(this).click(function(e){
+      window.open($(this).attr('link-url'));
+    });
+  })
+}
+
 
 
 initScrollIt();
 initFiltering();
+initLinkURL();
+
+window.onload = function(){
+  console.log('onload');
+}

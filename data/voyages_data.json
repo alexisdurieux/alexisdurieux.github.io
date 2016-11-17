@@ -316,8 +316,8 @@
         ],
         "properties": {
             "name": "Kotor",
-            "tag": "",
-            "date": "",
+            "tag": "Road Trip",
+            "date": "Aug 2016",
             "picture": "../img/kotor.jpg"
         }
     },
@@ -344,8 +344,8 @@
         ],
         "properties": {
             "name": "Plivitce",
-            "tag": "",
-            "date": "",
+            "tag": "Road Trip",
+            "date": "Aug 2016",
             "picture": "../img/plivitce.jpg"
         }
     },
