@@ -105,4 +105,4 @@ function initMap() {
 
 initScrollIt();
 initFiltering();
-initLinkURL();
+//initLinkURL();
